@@ -1,0 +1,42 @@
+bin/
+gen/
+.DS_Store
+local.properties
+*.keystore
+secure.properties
+apps/
+secure/
+build/
+core/build/**
+
+# intellij and Gradle
+#.idea/workspace.xml
+#.idea/tasks.xml
+.idea/
+/*/local.properties
+/*/out
+/*/*/build
+/*/*/*/build
+/*/*/production
+*.iml
+*.iws
+*.ipr
+*~
+*.swp
+.gradle/*/taskArtifacts/*
+
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# binary data
+*.bin
+
+# Misc non-source files
+*.lock
