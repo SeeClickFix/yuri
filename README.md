@@ -1,6 +1,5 @@
 ##Yuri
-
-![Yuri Gagarin](yuri-picture.jpg "Yuri Gagarin")
+![Screenshot](yuri_app_screenshot.png "Yuri Screenshot")
 
 Yuri is an tiny tool for launching custom URIs on Android (into space)  
 
@@ -11,5 +10,4 @@ If the system cannot find an activity to handle your URI, Yuri will show a Toast
 `"No activity found to handle that"`  
  
 
-
-![Screenshot](yuri_app_screenshot.png "Yuri Screenshot")
+[Yuri Gagarin - Wikipedia](http://en.wikipedia.org/wiki/Yuri_Gagarin)
