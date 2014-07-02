@@ -7,6 +7,7 @@ import android.net.Uri;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Gravity;
 import android.widget.EditText;
 import android.widget.Toast;
 
@@ -48,7 +49,10 @@ public class MainActivity extends ActionBarActivity {
         if (isIntentSafe) {
             startActivity(i);
         } else {
-            Toast.makeText(this, "No activity found to handle that", Toast.LENGTH_SHORT).show();
+            Toast toast = Toast
+                    .makeText(this, "No activity found to handle that", Toast.LENGTH_SHORT);
+            toast.setGravity(Gravity.TOP, 0, 250);
+            toast.show();
         }
 
     }
